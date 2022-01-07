@@ -236,7 +236,9 @@ li{
   font-size: 30px;
   padding: 8px;
   cursor: pointer;
+  
 }
+
 .footer-bottom{
   display: flex;
   justify-content: space-between;
