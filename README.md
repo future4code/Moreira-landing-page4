@@ -40,3 +40,28 @@ Você também pode ver a lista de todos os [colaboradores](https://github.com/fu
 - Convide alguém da equipe para uma cerveja :beer:
 - Obrigado publicamente :nerd_face:.
 - etc.
+<hr>
+&nbsp;
+
+## Prints do website
+
+<h1 align="center">
+    <img src="https://imagens-traval.s3.amazonaws.com/header+e+1+se%C3%A7%C3%A3o.png" backgroud="red"/>
+    <br>header e primeira seção<br>
+</h1>
+<h1 align="center">
+    <img src="https://imagens-traval.s3.amazonaws.com/se%C3%A7%C3%A3o+2.png" backgroud="red"/>
+    <br>Segunda seção<br>
+</h1>
+<h1 align="center">
+    <img src="https://imagens-traval.s3.amazonaws.com/main+1+parte.png" backgroud="red"/>
+    <br>Main primeira parte<br>
+</h1>
+<h1 align="center">
+    <img src="https://imagens-traval.s3.amazonaws.com/main+2+parte.png" backgroud="red"/>
+    <br>Main segunda parte<br>
+</h1>
+<h1 align="center">
+    <img src="https://imagens-traval.s3.amazonaws.com/footer.png" backgroud="red"/>
+    <br>Footer<br>
+</h1>
