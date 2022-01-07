@@ -1,4 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;1,100;1,200;1,300&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+  color: gray;
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -7,7 +14,7 @@
 }
 
 .container {
-  display: flex; 
+  display: flex;
   flex-direction: column;
 }
 /* header */
@@ -42,10 +49,10 @@ header {
 }
 .button-enviar {
   /* padding: 10px 40px; */
-  border-radius: 18px;
+  border-radius: 10px;
   background-color: #e5e5e5;
   border: 0;
-  padding: 18px;
+  padding: 10px;
   width: 150px;
   font-weight: 600;
   font-size: 14px;
@@ -66,7 +73,9 @@ header {
   margin-top: 25px;
   background-color: #fafdfe;
 }
-
+.image {
+  width: 80%;
+}
 h1,
 h2 {
   text-align: justify;
@@ -96,6 +105,7 @@ h2 {
 .logo-upfour-img {
   border-radius: 20%;
 }
+/* responsividade header e primeira seção */
 
 /*Inicio do main*/
 
@@ -113,19 +123,27 @@ h2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   height: 100%;
+  width: 100%;
   border-radius: 20px;
-  background: #283048;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #859398, #283048);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #859398, #283048); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #283048; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #859398,
+    #283048
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #859398,
+    #283048
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   padding: 0 20px;
-
 }
 .section_top p {
   letter-spacing: 2px;
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 20px;
   text-align: justify;
 }
@@ -134,6 +152,7 @@ h2 {
   margin: 0;
   width: 100%;
   height: 100%;
+  padding: 90px;
 }
 .section_two h2 {
   margin-bottom: 150px;
@@ -144,54 +163,54 @@ h2 {
 .section_two div {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-row-gap: 50px;
-  justify-items: end;
-  margin-bottom: 150px
+
+  justify-items: center;
+  margin-bottom: 150px;
 }
 .section_two div p {
   margin-left: 30px;
 }
-.search_data{
+.search_data {
   padding: 2px;
 }
 /*Inicio do footer*/
 hr {
   margin-bottom: 50px;
 }
-.footer-top{
+.footer-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 150px;
 }
-.footer-top p{
+.footer-top p {
   font-size: 30px;
   font-weight: 800;
 }
 
-.footer-button{
+.footer-button {
   display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 0 10px;
-    width: 50%;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 10px;
+  width: 50%;
 }
 
-#button{
+#button {
   font-size: 14px;
   padding: 8px;
   border: 0;
-  border-radius: 10px ;
+  border-radius: 10px;
 }
 
-.saibamais{
+.saibamais {
   background-color: black;
   color: white;
   font-weight: 600;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   cursor: pointer;
 }
-.facaumteste{
+.facaumteste {
   background-color: white;
   color: black;
   font-weight: 600;
@@ -199,59 +218,287 @@ hr {
   cursor: pointer;
 }
 
-.footer-middle{
+.footer-middle {
   background: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.upfour p{
-   font-weight: 600;
-   margin-bottom: 30px;
+.upfour p {
+  font-weight: 600;
+  margin-bottom: 30px;
 }
 
-ul{
+ul {
   list-style: none;
   padding: 4px;
 }
-li{
+li {
   padding: 4px;
 }
 
-.about p{
+.about p {
   font-weight: 600;
-   margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
-.help p{
+.help p {
   font-weight: 600;
-   margin-bottom: 30px;
+  margin-bottom: 30px;
 }
-.social p{
+.social p {
   font-weight: 600;
-   margin-bottom: 30px;
+  margin-bottom: 30px;
 }
-.social ul{
+
+.social ul {
   display: flex;
   font-size: 30px;
   padding: 8px;
   cursor: pointer;
-  
+}
+.uil.uil-facebook-f {
+  color: blue;
+}
+.uil.uil-instagram-alt {
+  color: rosybrown;
+}
+.uil.uil-linkedin {
+  color: lightseagreen;
+}
+.uil.uil-youtube {
+  color: red;
 }
 
-.footer-bottom{
+.footer-bottom {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 20px;
 }
-.footer-bottom ul{
-  font-size: 10px ;
+.footer-bottom ul {
+  font-size: 10px;
 }
 
-.icone-mensage{
+.icone-mensage {
   font-size: 30px;
   cursor: pointer;
 }
+/* Responsividade */
+@media (min-width: 411px) and (max-width: 850px) {
+  /* header e primeira seção */
+  header {
+    display: flex;
+  }
+  .menu-header {
+    display: none;
+    /* flex-direction: column;
+    align-items: center; */
 
+    /* /* flex-wrap: wrap-reverse;  */
+  }
+  #container-secao-um {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    /*padding:0; */
+  }
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  .image img {
+    width: 100%;
+  }
+  .description {
+    width: 100%;
+  }
+  div {
+    margin: 0;
+  }
+  /* menu lateral que colapsa */
+  #menuToggle {
+    display: block;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    z-index: 1;
+    -webkit-user-select: none;
+    user-select: none;
+    background-color: seagreen;
+  }
 
+  #menuToggle a {
+    text-decoration: none;
+    color: #232323;
+
+    transition: color 0.3s ease;
+  }
+
+  #menuToggle a:hover {
+    color: tomato;
+  }
+
+  #menuToggle input {
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+
+    cursor: pointer;
+
+    opacity: 0; /* hide this */
+    z-index: 2; /* and place it over the hamburger */
+
+    -webkit-touch-callout: none;
+  }
+
+  /*
+ * Just a quick hamburger
+ */
+  #menuToggle span {
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+
+    background: #cdcdcd;
+    border-radius: 3px;
+
+    z-index: 1;
+
+    transform-origin: 4px 0px;
+
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+      background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+  }
+
+  #menuToggle span:first-child {
+    transform-origin: 0% 0%;
+  }
+
+  #menuToggle span:nth-last-child(2) {
+    transform-origin: 0% 100%;
+  }
+
+  /* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+  #menuToggle input:checked ~ span {
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: #232323;
+  }
+
+  /*
+ * But let's hide the middle one.
+ */
+  #menuToggle input:checked ~ span:nth-last-child(3) {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+  }
+
+  /*
+ * Ohyeah and the last one should go the other direction
+ */
+  #menuToggle input:checked ~ span:nth-last-child(2) {
+    transform: rotate(-45deg) translate(0, -1px);
+  }
+
+  /*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+  #menu {
+    position: absolute;
+    width: 300px;
+    margin: -100px 0 0 -50px;
+    padding: 50px;
+    padding-top: 125px;
+
+    background: #ededed;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    /* to stop flickering of text in safari */
+
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  }
+
+  #menu li {
+    padding: 10px 0;
+    font-size: 22px;
+  }
+
+  /*
+ * And let's slide it in from the left
+ */
+  #menuToggle input:checked ~ ul {
+    transform: none;
+  }
+  /* Seção dois */
+  .container_main {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  .section_top {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    background-color: teal;
+    justify-content: center;
+  }
+  .section_top img {
+    width: 30%;
+  }
+  .section_top p {
+    font-size: 14px;
+    width: 50%;
+  }
+  .section_one {
+    padding: 0;
+    margin: 0;
+    display: grid;
+    background-color: slateblue;
+  }
+  .section-two {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  footer {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .footer-top {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .footer-middle {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .social {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .footer-bottom {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+/* teste menu lateral */
+/* teste menu lateral */
+#menuToggle {
+  display: none;
+}
