@@ -507,10 +507,22 @@ li {
     padding: 20px;
     text-align: justify;
   }
-
+ /* Começa o footer*/
   footer {
     display: grid;
     grid-template-columns: 1fr;
+    padding: 10px;
+    justify-items: center;
+  }
+
+  .footer-button{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+  
+  }
+  .saibamais{
+    margin-right: 50px;
   }
   .footer-top {
     display: grid;
@@ -519,6 +531,11 @@ li {
   .footer-middle {
     display: grid;
     grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .upfour p{
+    text-align: center;
   }
 
   .social {
@@ -526,8 +543,7 @@ li {
     grid-template-columns: 1fr;
   }
   .footer-bottom {
-    display: grid;
-    grid-template-columns: 1fr;
+    margin-bottom: 50px;
   }
 }
 /* teste menu lateral */
