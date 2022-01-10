@@ -1,38 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link
-      rel="stylesheet"
-      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
-    />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"/>
+
     <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <script src="./js/main.js"></script>
   </head>
   <body>
     <div class="container">
+      <!--==================== HEADER ====================-->
       <header>
         <div>
           <img class="header-img-logo" src="./img/logo.png" alt="logo upfour" />
         </div>
      
-        <div id="menu" class="menu-header">
-          <a href="#home"><p>Home</p></a>
-          <a href="#servicos"><p>Serviços</p></a>
-          <a href="#sobre-nos"><p>Sobre nós</p></a>
-          <button class="button-enviar" type="submit">
-            Entrar<i class="uil uil-arrow-right"></i>
-          </button>
-        </div>
-           <div id="menuToggle">
-          <input type="checkbox" />
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
+          <div id="menu" class="menu-header">
+            <a href="#home"><p>Home</p></a>
+            <a href="#servicos"><p>Serviços</p></a>
+            <a href="#sobre-nos"><p>Sobre nós</p></a>
+            <button class="button-enviar" type="submit">
+              Entrar<i class="uil uil-arrow-right"></i>
+            </button>
+          </div>
+          <div class="icon_app">
+              <div class="nav_toggle" onclick="openNavmenu()" id="nav-toggle">
+                  <i class="uil uil-apps"></i>
+              </div>
+          </div>  
+        
       </header>
+
+      <!--============= CONTAINER-SECAO-UM ===============-->
       <div id="container-secao-um">
         <div class="description">
           <h1>A nossa missão é dar crédito a quem precisa.</h1>
@@ -52,6 +55,8 @@
           />
         </div>
       </div>
+
+      <!--==================== MAIN ======================-->
       <main>
         <div class="container_main">
           <div class="section_one">
@@ -107,6 +112,8 @@
           </div>
         </div>
       </main>
+      
+      <!--==================== FOOTER ====================-->
       <hr />
       <footer id="sobre-nos" class="rodape">
         <div>
@@ -187,6 +194,7 @@
               <i class="uil uil-comment-alt-dots"></i>
             </div>
           </div>
+
         </div>
       </footer>
     </div>
