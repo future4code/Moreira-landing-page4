@@ -30,7 +30,7 @@ Ferramentas que usamos para criar o nosso projeto
 Desenvolvedores do projeto
 
 - Antonio Junior - _Desenvolveu o Footer da aplicação_ - [moreira-Jose-Junior](https://github.com/future4code/moreira-Jose-Junior)
-- Carlos Henrique - _Desenvolveu o Main da aplicação e a Interface com a ferramenta Figma_ - [moreira-Carlos-Costa](https://github.com/future4code/moreira-Carlos-Costa)
+- Carlos Henrique - _Desenvolveu o Main da aplicação e a Interface com a ferramenta Figma_ - [HEINRICK](https://github.com/HEINRICK7)
 - Francine Lima- _Desenvolveu o Header e Container_section_one da aplicação_ - [moreira-Francine-Lima](https://github.com/future4code/moreira-Francine-Lima)
 Você também pode ver a lista de todos os [colaboradores](https://github.com/future4code/Moreira-landing-page4/graphs/contributors) que participaram deste projeto.
 <hr>
